@@ -1,0 +1,16 @@
+{
+  "name": "aircraft-maintenance-tracker",
+  "version": "1.0.0",
+  "description": "Track aircraft maintenance status through SCHEDULED -> IN_PROGRESS -> COMPLETED.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": ["aircraft", "maintenance", "tracker", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
